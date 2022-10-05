@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <%- include('Common/header')%>
+  <h1>Hello <%= user.name %></h1>
+  <h2>Email: <%= user.email%></h2>
+  <h2>City: <%= user.city%></h2>
+  <ul>
+    <% user.skills.forEach((item)=>{%>
+      <li><%= item%></li>
+      <% }) %>
+</body>
+</html>

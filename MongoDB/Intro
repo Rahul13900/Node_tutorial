@@ -1,0 +1,6 @@
+1. MongoDB is a NoSQL database , in this type of database we do not store data in rows and coloums where as data is stored in a collection
+2. The data is stored in form of objects
+3. we can use MongoDB i.e create/delete/updat/read data from MongoDB map(i.e GUI for MongoDB)
+
+CRUD OPERATIONS IN MongoDB
+1. 
